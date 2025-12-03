@@ -49,3 +49,6 @@ def calc(x,y):
     return x+y,x*y
 add,mul=calc(10,5)
 print(add,mul)
+
+
+
