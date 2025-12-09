@@ -106,3 +106,27 @@ for i in num[::-1]:
     print(i)
 
 
+#learning the new type tuples
+t = (10, 20, 30)
+#acccessing the tuples               # tuples are immutable
+t = (10, 20, 30)
+
+print(t[0])  # 10
+print(t[2])  # 30
+
+
+
+#Count how many times 5 appears in the tuple.
+t=(1,2,3,4)
+print(t.count(5))
+
+#Find index of item 40.
+t=(10,20,30,40)
+print(t.index(30))
+
+
+#Concatenate two tuples.
+a = (1,2,3)
+b = (4,5)
+print(a + b)
+
